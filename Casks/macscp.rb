@@ -1,10 +1,10 @@
 cask "macscp" do
-  version "0.3.0"
-  sha256 "5b0d06c084cba47319d7a17fe8d9b80732768845e2f327a6cfb14b080ea89494"
+  version "0.4.0"
+  sha256 "6b05e8acb7dbbcfefc00a716e6aaeeb33b00c0ca0dce1b18873b7ea1b6645c47"
 
   url "https://github.com/tomaszkubiak-courses/macscp/releases/download/v#{version}/MacSCP-#{version}.dmg"
   name "MacSCP"
-  desc "SFTP, SCP and FTP client with a dual-pane Commander window"
+  desc "SFTP, SCP, FTP and S3 client with a dual-pane Commander window"
   homepage "https://github.com/tomaszkubiak-courses/macscp"
 
   livecheck do
